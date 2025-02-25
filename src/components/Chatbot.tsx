@@ -1,12 +1,12 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import { motion } from "framer-motion";
 import { FaTimes } from "react-icons/fa";
 import { useChat } from "@ai-sdk/react";
 
 const Chatbot = () => {
   const [chatOpen, setChatOpen] = useState(false);
-  const [showChatIcon, setShowChatIcon] = useState(false);
+  
 
   
   // useEffect(() => {

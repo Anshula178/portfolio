@@ -2,8 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Header } from "@/sections/Header";
-import Footer from "../footer/page";
+
 
 export default function AboutMe() {
   const ref = useRef(null);

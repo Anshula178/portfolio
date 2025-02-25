@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter,Calistoga, Roboto, Montserrat } from "next/font/google";
+import {  Montserrat } from "next/font/google";
 import {twMerge}from "tailwind-merge"
 import "./globals.css";
 import { Header } from "@/sections/Header";

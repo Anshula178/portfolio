@@ -46,7 +46,7 @@ export const HeroSection = () => {
             Creating Engaging User Interfaces
           </h1>
           <p className="mt-4 text-white/60 md:text-lg sm:text-sm">
-            I turn designs into dynamic, high-performing web applications. Let’s collaborate on your next project.
+            I turn designs into dynamic, high-performing web applications. Let&apos;s collaborate on your next project.
           </p>
         </motion.div>
 
@@ -80,7 +80,7 @@ export const HeroSection = () => {
               >
                 👋
               </motion.span>
-              <span className="font-semibold text-white cursor-pointer text-sm">Let's Collaborate</span>
+              <span className="font-semibold text-white cursor-pointer text-sm">Let&apos; Collaborate</span>
             </motion.button>
           </Link>
         </motion.div>
