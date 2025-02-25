@@ -1,6 +1,5 @@
 import { Card } from "@/components/Card";
-import { Header } from "@/sections/Header";
-import Footer from "../footer/page";
+
 
 export default function ProjectsSection() {
     return (

@@ -34,7 +34,7 @@ const ContactForm = () => {
         } else {
           setStatus("Failed to send message.");
         }
-      } catch (error) {
+      } catch  {
         setStatus("An error occurred.");
       }
       setSubmitting(false);
