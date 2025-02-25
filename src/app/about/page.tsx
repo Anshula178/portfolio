@@ -43,7 +43,7 @@ export default function AboutMe() {
             transition={{ duration: 0.7, delay: 0.5 }}
             className="text-4xl font-bold mt-4"
           >
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <span className="text-purple-500">
               Anshula{" "}
               <motion.span
@@ -63,7 +63,7 @@ export default function AboutMe() {
             className="text-gray-300 mt-6 leading-8"
           >
             A passionate <strong>Full Stack Developer</strong> 🚀 specializing in crafting
-            <strong> modern web applications</strong> using <strong>React, Next.js, Node.js, and MongoDB</strong>.
+            <strong> modern web applications</strong> using <strong>React, NextJS, NodeJs, and MongoDB</strong>.
             My focus is on creating clean, user-friendly, and highly scalable digital experiences.
           </motion.p>
 
@@ -73,7 +73,7 @@ export default function AboutMe() {
             transition={{ duration: 0.8, delay: 0.9 }}
             className="text-gray-400 mt-4"
           >
-            I'm always learning and exploring the latest web technologies. When I'm not
+            I&apos;m always learning and exploring the latest web technologies. When I&apos;m not
             coding, I love contributing to open-source projects and following tech trends.
           </motion.p>
 
