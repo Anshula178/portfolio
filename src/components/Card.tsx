@@ -59,7 +59,7 @@ export const Card = () => {
           whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(0,0,0,0.2)" }}
           className="bg-gray-800 border border-gray-400 mx-auto flex flex-col md:flex-row gap-10 rounded-3xl p-10 overflow-hidden max-w-4xl w-full"
         >
-          {/* Content Div */}
+          
           <div className="w-full flex flex-col">
             <p className="text-purple-400 text-xl sm:text-md font-bold uppercase tracking-widest">
               {project.year}
@@ -88,7 +88,7 @@ export const Card = () => {
             </a>
           </div>
 
-          {/* Image Animation */}
+          
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
             animate={isInView ? { scale: 1, opacity: 1 } : {}}

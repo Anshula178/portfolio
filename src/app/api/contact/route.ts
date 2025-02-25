@@ -32,7 +32,7 @@ export async function POST(req: Request) {
       subject: "New Contact Form Submission",
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     });
-
+ 
   
     await transporter.sendMail({
       from: process.env.EMAIL_USER,

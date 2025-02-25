@@ -8,16 +8,13 @@ import emoji from "@/assets/emoji.png";
 export const HeroSection = () => {
   return (
     <div className="py-10 md:py-16 lg:py-32 relative">
-      {/* Pulsating Background */}
+       <div className="container mx-auto">
       <motion.div
-        className="sm:w-[450px] md:w-[640px] sm:h-[450px] md:h-[640px] absolute -z-20 inset-0 border-2 top-[58%] md:top-[58%] md:left-[29%] sm:left-[-5%] -translate-x-1/2 -translate-y-1/2 rounded-full border-purple-300/5 shadow-[0_0_80px_inset] shadow-purple-500 "
+        className="w-[100%] mx-auto md:w-[640px] h-[100%] md:h-[640px] absolute -z-20 border-2 top-[58%] left-0 right-0  -translate-x-1/2 -translate-y-1/2 rounded-full border-purple-300/5 shadow-[0_0_80px_inset] shadow-purple-500 "
         initial={{ y: "-100vh", opacity: 0 }} 
   animate={{ y: "-50%", opacity: 1 }}
   transition={{ duration: 1.2, ease: "easeOut" }} 
       />
-
-      <div className="container">
-       
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}

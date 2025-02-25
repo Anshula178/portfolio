@@ -64,7 +64,7 @@ const Chatbot = () => {
             </div>
           </div>
 
-          {/* Chat Messages */}
+         
           <div className="h-64 p-3 overflow-y-auto space-y-2">
             {messages.map((msg, index) => (
               <div
@@ -81,7 +81,7 @@ const Chatbot = () => {
             {isLoading && <div className="text-gray-400 text-sm">Typing...</div>}
           </div>
 
-          {/* Input Field */}
+          
           <div className="p-2 border-t border-gray-300 flex">
             <input
               type="text"
@@ -93,6 +93,8 @@ const Chatbot = () => {
             />
             <button
               onClick={handleSubmit}
+        
+        
               className="bg-purple-500 text-white px-4 py-2 rounded-r-md hover:bg-blue-600"
               disabled={isLoading}
             >
